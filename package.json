@@ -1,0 +1,31 @@
+{
+  "name": "iptq",
+  "version": "1.0.0",
+  "description": "selenium webdriver test project with Protractor, Typescript, Jasmine",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "npm run tsc",
+    "test": "protractor ConvertedJSFiles/config.js",
+    "tsc": "tsc"
+  },
+  "author": "Iakov Volf <jakoff@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jasmine": "^2.5.54",
+    "@types/node": "^8.0.25",
+    "install": "^0.10.1",
+    "jasmine-data-provider": "^2.2.0",
+    "npm": "^5.3.0",
+    "protractor": "^5.1.2",
+    "testingbot-api": "^1.0.5"
+  },
+  "devDependencies": {
+    "babel-register": "^6.26.0",
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-protractor": "^4.1.0",
+    "gulp-typescript": "^3.2.2",
+    "jasmine-spec-reporter": "^4.2.1",
+    "typescript": "^2.4.2"
+  }
+}
